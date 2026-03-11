@@ -1,0 +1,42 @@
+2026-03-11 20:57:58,073 - ERROR - Failed to process empty.csv:
+Traceback (most recent call last):
+  File "C:\Users\91782\Desktop\Day11_pm\file_processor_resilient.py", line 69, in file_processor_resilient
+    rows_processed = process_single_csv(filepath)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91782\Desktop\Day11_pm\file_processor_resilient.py", line 24, in process_single_csv
+    if not reader.fieldnames:
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\csv.py", line 102, in fieldnames
+    self._fieldnames = next(self.reader)
+                       ^^^^^^^^^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+
+2026-03-11 20:57:58,073 - ERROR - Failed to process no_headers.csv:
+Traceback (most recent call last):
+  File "C:\Users\91782\Desktop\Day11_pm\file_processor_resilient.py", line 69, in file_processor_resilient
+    rows_processed = process_single_csv(filepath)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91782\Desktop\Day11_pm\file_processor_resilient.py", line 24, in process_single_csv
+    if not reader.fieldnames:
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\csv.py", line 102, in fieldnames
+    self._fieldnames = next(self.reader)
+                       ^^^^^^^^^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+
+2026-03-11 20:57:58,077 - ERROR - Failed to process valid.csv:
+Traceback (most recent call last):
+  File "C:\Users\91782\Desktop\Day11_pm\file_processor_resilient.py", line 69, in file_processor_resilient
+    rows_processed = process_single_csv(filepath)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91782\Desktop\Day11_pm\file_processor_resilient.py", line 24, in process_single_csv
+    if not reader.fieldnames:
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\csv.py", line 102, in fieldnames
+    self._fieldnames = next(self.reader)
+                       ^^^^^^^^^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+

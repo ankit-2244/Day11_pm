@@ -1,0 +1,9 @@
+{
+    "files_processed": 0,
+    "files_failed": 3,
+    "error_details": {
+        "empty.csv": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte",
+        "no_headers.csv": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte",
+        "valid.csv": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte"
+    }
+}
