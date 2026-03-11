@@ -5,7 +5,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
-# AI Generated Code based on prompt
+
 def retry(max_attempts=3, delay=1):
     def decorator(func):
         @functools.wraps(func)
